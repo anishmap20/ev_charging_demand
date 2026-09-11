@@ -104,7 +104,7 @@ def render(df):
 
     with img_col1:
         if os.path.exists("assets/ev_hero_charging_station.png"):
-            st.image("assets/ev_hero_charging_station.png", use_column_width=True)
+            st.image("assets/ev_hero_charging_station.png", width="stretch")
             st.markdown(
                 '<div style="font-size: 12px; color: #00ff87; font-weight: 700; text-align: center; margin-top: 6px;">'
                 '⚡ High-Power Public Charging Stations'
@@ -114,7 +114,7 @@ def render(df):
 
     with img_col2:
         if os.path.exists("assets/ev_smart_city_india.png"):
-            st.image("assets/ev_smart_city_india.png", use_column_width=True)
+            st.image("assets/ev_smart_city_india.png", width="stretch")
             st.markdown(
                 '<div style="font-size: 12px; color: #00ff87; font-weight: 700; text-align: center; margin-top: 6px;">'
                 '🌿 Sustainable Smart Mobility & Highway Corridors'
